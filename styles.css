@@ -1,0 +1,70 @@
+body{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background-color:#011F3F ;
+  height: 100vh;
+  
+}
+
+h1{
+  font-size: 3rem;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+}
+.grid_container{
+  display: grid;
+  width: 50vh;
+  height: 50vh;
+  padding: 25px;
+  grid-template-rows:1fr 1fr ;
+  grid-template-columns:1fr 1fr;
+  gap: 40px;
+  margin-top: 5rem;
+}
+
+.red{
+  background-color: #cc0000;
+  border-radius: 50px;
+  border: 10px solid #736b5e;
+  
+
+}
+.blue{
+  background-color: #004daa;
+  border-radius: 50px;
+  border: 10px solid #736b5e;
+
+
+}
+.yellow{
+  background-color: #999900;
+  border-radius: 50px;
+  border: 10px solid #736b5e;
+
+
+}
+.green{
+  background-color: #006600;
+  border-radius: 50px;
+  border: 10px solid #736b5e;
+
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.button{
+  
+  background-color: black;
+}
+
+.redFlash{
+  background-color: red;
+  transition: background-color 500ms linear;
+
+}
